@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<VETBatch>
+	<BatchId>4424a7cddbf24ceb8dbc7fe54f372437</BatchId>
+	<IsAsync>false</IsAsync>
+	<ResponseSeconds>120</ResponseSeconds>
+	<VETRequest>
+		<VETHeader>
+			<IsBroadcast>false</IsBroadcast>
+			<SessionId>98043F56-5367-0-D10B-10C6FCF83</SessionId>
+			<RequestId>1234678-9012234</RequestId>
+			<Username>KESSRO-User</Username>
+			<RequestType>BV</RequestType>
+			<AgencyName>KESS</AgencyName>
+			<RegionalOfficeName>KESSRO</RegionalOfficeName>
+			<StateOfEvent>XX</StateOfEvent>
+			<YearOfEvent>1945</YearOfEvent>
+			<RequestDate>2013-05-06T20:02:46.596-05:00</RequestDate>
+		</VETHeader>
+		<VETBody>
+			<VitalEventTransactionBody>
+				<Document id="mydoc">
+					<DocumentFileControlID>44666</DocumentFileControlID>
+					<DocumentFiledDate>
+						<Date>1942-12-04T00:00:00-05:00</Date>
+					</DocumentFiledDate>
+					<DocumentStateFileNumber>432</DocumentStateFileNumber>
+				</Document>
+				<Person id="mypersona">
+					<PersonBirthDate>
+						<Date>1942-12-04T00:00:00-05:00</Date>
+					</PersonBirthDate>
+					<PersonBirthLocation>
+						<LocationAddress>
+							<StructuredAddress>
+								<LocationStateFIPS5_2AlphaCode>NY
+								</LocationStateFIPS5_2AlphaCode>
+							</StructuredAddress>
+						</LocationAddress>
+					</PersonBirthLocation>
+					<PersonName>
+						<PersonGivenName>Nora</PersonGivenName>
+						<PersonMiddleName>Anne</PersonMiddleName>
+						<PersonSurName>Smith</PersonSurName>
+						<PersonNameSuffixText>Jr</PersonNameSuffixText>
+						<PersonMaidenName>Johnson</PersonMaidenName>
+						<PersonFatherSurName>Johnson</PersonFatherSurName>
+					</PersonName>
+					<PersonSexCode>F</PersonSexCode>
+				</Person>
+				<PersonDocumentAssociation>
+					<PersonReference ref="mypersona" />
+					<DocumentReference ref="mydoc" />
+				</PersonDocumentAssociation>
+			</VitalEventTransactionBody>
+		</VETBody>
+	</VETRequest>
+</VETBatch>
