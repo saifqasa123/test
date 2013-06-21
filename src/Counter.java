@@ -1,6 +1,7 @@
 public class Counter {
   private int result = 0;
 
+  //getResult method
   public int getResult() {
     return result;
   }
